@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+  }
+
+#background{
+    background-color: aliceblue;
+    height: 100%;
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+/* 
+.nav-link{
+    font-size: 7.2 rem;
+} */
+
+.navbar a{
+    color: #548CA8;
+    font-size: 1.2rem;
+}
+
+.clr-toggler.navbar-toggler {
+    border-color: #334257;
+}
+
+.middle{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text] {
+    border-radius: 25px;
+    padding: 10px;
+    color: aliceblue;
+    width: 100%;
+  }
+
+input:focus,.search-btn:focus{
+    outline: none;
+}
+
+.search-btn {
+    border-radius: 25px;
+    padding: 10px;
+    color: aliceblue;
+    cursor: pointer;
+  }
